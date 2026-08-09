@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>John Gohiling — Builder of Automated Content & Marketing Systems</title>
-  <meta name="description" content="John Gohiling builds automated systems that create content, audiences and income — TikTok AI pipelines, affiliate content sites, bot fleets and trading bots." />
+  <meta name="description" content="John Gohiling builds automated systems that create content, audiences and income — TikTok AI pipelines, affiliate content sites, bot farms and trading bots." />
   <meta property="og:title" content="John Gohiling — Builder of Automated Systems" />
-  <meta property="og:description" content="AI content pipelines, affiliate sites, bot fleets and trading bots — built to run themselves." />
+  <meta property="og:description" content="AI content pipelines, affiliate sites, bot farms and trading bots — built to run themselves." />
   <meta property="og:type" content="website" />
   <link rel="icon" type="image/svg+xml" href="/avatar.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,12 +15,15 @@
   <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
   <header class="nav">
     <a class="nav-brand" href="#top">
       <img src="/avatar.svg" alt="" width="28" height="28" />
       <span>john<span class="accent">.</span>gohiling</span>
     </a>
     <nav class="nav-links">
+      <a href="#workflow">How it works</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#about">About</a>
@@ -31,17 +34,20 @@
   <main id="top">
     <!-- HERO -->
     <section class="hero">
-      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="orb orb-a" aria-hidden="true"></div>
+      <div class="orb orb-b" aria-hidden="true"></div>
+      <div class="orb orb-c" aria-hidden="true"></div>
       <div class="hero-inner">
-        <img class="avatar" src="/avatar.svg" alt="Avatar for John Gohiling" width="132" height="132" />
-        <p class="eyebrow">Hey, I'm</p>
-        <h1>John Gohiling</h1>
-        <p class="tagline">I build <span class="grad">automated systems</span> that create content, audiences and income — so the work happens while I sleep.</p>
-        <div class="hero-ctas">
-          <a class="btn btn-primary" href="#projects">See my work</a>
+        <p class="status reveal"><span class="status-dot"></span> My systems are running right now</p>
+        <img class="avatar reveal" src="/avatar.svg" alt="Avatar for John Gohiling" width="132" height="132" />
+        <p class="eyebrow reveal">Hey, I'm</p>
+        <h1 class="reveal">John Gohiling</h1>
+        <p class="tagline reveal">I build <span class="grad">automated systems</span> that create content, audiences and income — so the work happens while I sleep.</p>
+        <div class="hero-ctas reveal">
+          <a class="btn btn-primary" href="#workflow">See how it works</a>
           <a class="btn btn-ghost" href="#contact">Let's talk</a>
         </div>
-        <div class="hero-socials">
+        <div class="hero-socials reveal">
           <a href="https://www.tiktok.com/@day.with.john" target="_blank" rel="noopener" aria-label="TikTok">TikTok</a>
           <a href="https://github.com/gohilingjohn" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
           <a href="https://x.com/daywithjohn" target="_blank" rel="noopener" aria-label="X (Twitter)">X</a>
@@ -49,46 +55,90 @@
       </div>
     </section>
 
+    <!-- WORKFLOW -->
+    <section class="section" id="workflow">
+      <p class="eyebrow reveal">The workflow</p>
+      <h2 class="reveal">One pipeline, end to end</h2>
+      <p class="lede reveal">Every project runs through the same loop — simple on purpose, boring on purpose. Boring means it keeps running.</p>
+      <ol class="flow">
+        <li class="flow-step reveal">
+          <span class="flow-num">01</span>
+          <h3>Intake</h3>
+          <p>Ideas and briefs land in one place — a folder, a chat, a prompt. Nothing gets lost, nothing needs chasing.</p>
+        </li>
+        <li class="flow-step reveal">
+          <span class="flow-num">02</span>
+          <h3>Build</h3>
+          <p>AI and automation produce the assets: images, captions, videos, quote-cards — generated, checked, approved.</p>
+        </li>
+        <li class="flow-step reveal">
+          <span class="flow-num">03</span>
+          <h3>Orchestrate</h3>
+          <p>Bots queue the work, schedule it and dispatch it across platforms — from one control panel.</p>
+        </li>
+        <li class="flow-step reveal">
+          <span class="flow-num">04</span>
+          <h3>Publish</h3>
+          <p>Content goes live on schedule. Twice a day, every day — without anyone watching the clock.</p>
+        </li>
+        <li class="flow-step reveal">
+          <span class="flow-num">05</span>
+          <h3>Improve</h3>
+          <p>Watchdogs and stats watch everything, flag what breaks, and feed what works back into the loop.</p>
+        </li>
+      </ol>
+    </section>
+
     <!-- PROJECTS -->
     <section class="section" id="projects">
-      <p class="eyebrow">Selected work</p>
-      <h2>Things I've built that run themselves</h2>
+      <p class="eyebrow reveal">Selected work</p>
+      <h2 class="reveal">Things I've built that run themselves</h2>
       <div class="grid projects">
-        <article class="card">
+        <article class="card reveal">
           <div class="card-head">
-            <span class="card-icon">▶</span>
-            <h3>@day.with.john</h3>
-          </div>
-          <p>An AI-powered TikTok pipeline that produces and posts twice a day (6AM & 6PM) — idea intake, image generation, assembly and scheduling, fully automated in 1080p.</p>
-          <div class="tags"><span>AI pipeline</span><span>Automation</span><span>TikTok</span><span>Python</span></div>
-        </article>
-        <article class="card">
-          <div class="card-head">
-            <span class="card-icon">🐾</span>
-            <h3>PawHealthHQ</h3>
-          </div>
-          <p>A pet-health affiliate site driven by a Pinterest keyword engine — SEO content that earns affiliate commissions while the audience grows organically.</p>
-          <div class="tags"><span>SEO</span><span>Affiliate</span><span>Pinterest</span><span>Content ops</span></div>
-        </article>
-        <article class="card">
-          <div class="card-head">
-            <span class="card-icon">🤖</span>
-            <h3>Shopee Affiliate Bot Fleet</h3>
-          </div>
-          <p>A fleet of 10 automation bots on a dedicated VPS that runs Shopee-affiliate Facebook marketing at scale — orchestrated over Telegram, with health monitoring and auto-recovery.</p>
-          <div class="tags"><span>Telegram bots</span><span>Facebook</span><span>Affiliate</span><span>VPS infra</span></div>
-        </article>
-        <article class="card">
-          <div class="card-head">
-            <span class="card-icon">🏭</span>
+            <span class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="8" width="16" height="12" rx="3"/><path d="M12 8V5"/><circle cx="12" cy="4.5" r="0.5"/><path d="M9 13h.01M15 13h.01M9 17h.01M15 17h.01"/></svg>
+            </span>
             <h3>Facebook Bot Farm</h3>
           </div>
           <p>A 10-bot automation farm on a Singapore VPS — Telegram-orchestrated auto-posting across Facebook pages, news reposting as quote-cards, health watchdogs and self-recovery. The engine behind our campaigns.</p>
           <div class="tags"><span>Bot farm</span><span>Facebook</span><span>Telegram</span><span>systemd</span><span>Watchdogs</span></div>
         </article>
-        <article class="card">
+        <article class="card reveal">
           <div class="card-head">
-            <span class="card-icon">📈</span>
+            <span class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 12l4 4 8-8"/></svg>
+            </span>
+            <h3>@day.with.john</h3>
+          </div>
+          <p>An AI-powered TikTok pipeline that produces and posts twice a day (6AM & 6PM) — idea intake, image generation, assembly and scheduling, fully automated in 1080p.</p>
+          <div class="tags"><span>AI pipeline</span><span>Automation</span><span>TikTok</span><span>Python</span></div>
+        </article>
+        <article class="card reveal">
+          <div class="card-head">
+            <span class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7.5-4.7-9.3-9.3C1.5 8.6 3.7 5 7.3 5c2.2 0 3.6 1.2 4.7 2.9C13.1 6.2 14.5 5 16.7 5c3.6 0 5.8 3.6 4.6 6.7C19.5 16.3 12 21 12 21z"/></svg>
+            </span>
+            <h3>PawHealthHQ</h3>
+          </div>
+          <p>A pet-health affiliate site driven by a Pinterest keyword engine — SEO content that earns affiliate commissions while the audience grows organically.</p>
+          <div class="tags"><span>SEO</span><span>Affiliate</span><span>Pinterest</span><span>Content ops</span></div>
+        </article>
+        <article class="card reveal">
+          <div class="card-head">
+            <span class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12l2 5v5h-2a2 2 0 1 1-4 0H10a2 2 0 1 1-4 0H4v-5l2-5z"/><path d="M4 12h5l1.5-2.5L13 14l1.5-2.5H20"/></svg>
+            </span>
+            <h3>Shopee Affiliate Bot Fleet</h3>
+          </div>
+          <p>A fleet of 10 automation bots that runs Shopee-affiliate Facebook marketing at scale — orchestrated over Telegram, with health monitoring and auto-recovery.</p>
+          <div class="tags"><span>Telegram bots</span><span>Facebook</span><span>Affiliate</span><span>VPS infra</span></div>
+        </article>
+        <article class="card reveal">
+          <div class="card-head">
+            <span class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-6 4 3 6-8"/><path d="M14 6h4v4"/></svg>
+            </span>
             <h3>Crypto Trading Bot</h3>
           </div>
           <p>A high-leverage crypto trading bot on MEXC — strategies are backtested before they ever touch real money, with disciplined risk rules and full trade logging.</p>
@@ -99,9 +149,9 @@
 
     <!-- SKILLS -->
     <section class="section" id="skills">
-      <p class="eyebrow">What I work with</p>
-      <h2>Skills & tools</h2>
-      <div class="chips">
+      <p class="eyebrow reveal">What I work with</p>
+      <h2 class="reveal">Skills & tools</h2>
+      <div class="chips reveal">
         <span>Python</span><span>Automation</span><span>AI content pipelines</span><span>SEO</span>
         <span>Affiliate marketing</span><span>Telegram bots</span><span>Linux / VPS</span>
         <span>PM2 · nginx · Docker</span><span>Backtesting</span><span>Data & analytics</span>
@@ -110,17 +160,17 @@
 
     <!-- ABOUT -->
     <section class="section" id="about">
-      <p class="eyebrow">About</p>
-      <h2>Builder first, marketer second</h2>
-      <p class="about-text">I'm a hands-on builder who treats every project like an engineering problem: if a task repeats, I automate it. That mindset turned a TikTok experiment into a twice-daily publishing machine, a pet blog into a Pinterest-driven affiliate asset, and a side interest in trading into a backtested, risk-managed bot. I run my own infrastructure end-to-end — from the VPS and the bots on it, to the content those bots push.</p>
+      <p class="eyebrow reveal">About</p>
+      <h2 class="reveal">Builder first, marketer second</h2>
+      <p class="about-text reveal">I'm a hands-on builder who treats every project like an engineering problem: if a task repeats, I automate it. That mindset turned a TikTok experiment into a twice-daily publishing machine, a pet blog into a Pinterest-driven affiliate asset, a side interest in trading into a backtested bot — and a handful of scripts into a bot farm that posts around the clock. I run my own infrastructure end-to-end, from the VPS to the content those bots push.</p>
     </section>
 
     <!-- CONTACT -->
     <section class="section contact" id="contact">
-      <p class="eyebrow">Contact</p>
-      <h2>Let's build something that runs itself</h2>
-      <p class="about-text">Open to freelance, partnerships and interesting projects. Fastest replies on TikTok or GitHub.</p>
-      <div class="hero-ctas">
+      <p class="eyebrow reveal">Contact</p>
+      <h2 class="reveal">Let's build something that runs itself</h2>
+      <p class="about-text reveal">Open to freelance, partnerships and interesting projects. Fastest replies on TikTok or GitHub.</p>
+      <div class="hero-ctas reveal">
         <a class="btn btn-primary" href="https://www.tiktok.com/@day.with.john" target="_blank" rel="noopener">DM me on TikTok</a>
         <a class="btn btn-ghost" href="https://github.com/gohilingjohn" target="_blank" rel="noopener">GitHub</a>
       </div>
