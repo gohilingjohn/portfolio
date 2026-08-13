@@ -3,11 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>John — Builder of Automated Content & Marketing Systems</title>
-  <meta name="description" content="John builds automated systems that create content, audiences and income — TikTok AI pipelines, affiliate content sites, bot farms and trading bots." />
-  <meta property="og:title" content="John — Builder of Automated Systems" />
-  <meta property="og:description" content="AI content pipelines, affiliate sites, bot farms and trading bots — built to run themselves." />
+  <meta name="theme-color" content="#0b0b10" />
+  <meta name="author" content="John" />
+  <title>John | Builder of Automated Content &amp; Marketing Systems</title>
+  <meta name="description" content="John builds automated systems that create content, audiences and income. TikTok AI pipelines, affiliate content sites, bot farms and trading bots." />
+  <meta property="og:title" content="John | Builder of Automated Systems" />
+  <meta property="og:description" content="AI content pipelines, affiliate sites, bot farms and trading bots, built to run themselves." />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://portfolio-iota-ten-ozoh8fck0w.vercel.app/og.png" />
+  <meta name="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/svg+xml" href="/avatar.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,34 +19,38 @@
   <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <div class="progress" id="progress" aria-hidden="true"></div>
 
   <header class="nav">
-    <a class="nav-brand" href="#top">
+    <a class="nav-brand" href="#main">
       <img src="/avatar.svg" alt="" width="28" height="28" />
       <span>john<span class="accent">.</span></span>
     </a>
-    <nav class="nav-links">
+    <nav class="nav-links" id="nav-menu" aria-label="Primary">
       <a href="#workflow">How it works</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#about">About</a>
       <a class="nav-cta" href="#contact">Contact</a>
     </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
   </header>
 
-  <main id="top">
+  <main id="main">
     <!-- HERO -->
     <section class="hero">
       <div class="orb orb-a" aria-hidden="true"></div>
       <div class="orb orb-b" aria-hidden="true"></div>
       <div class="orb orb-c" aria-hidden="true"></div>
       <div class="hero-inner">
-        <p class="status reveal"><span class="status-dot"></span> My systems are running right now</p>
+        <p class="status reveal" id="status"><span class="status-dot"></span> <span id="status-text">My systems are running right now</span></p>
         <img class="avatar reveal" src="/avatar.svg" alt="Avatar for John" width="132" height="132" />
         <p class="eyebrow reveal">Hey, I'm</p>
         <h1 class="reveal">John</h1>
-        <p class="tagline reveal">I build <span class="grad">automated systems</span> that create content, audiences and income — so the work happens while I sleep.</p>
+        <p class="tagline reveal">I build <span class="grad">automated systems</span> that create content, audiences and income, so the work happens while I sleep.</p>
         <div class="hero-ctas reveal">
           <a class="btn btn-primary" href="#workflow">See how it works</a>
           <a class="btn btn-ghost" href="#contact">Let's talk</a>
@@ -67,7 +75,7 @@
         </svg>
         <span class="office-text">
           <strong>Visit the Tambay Office</strong>
-          <span>Watch Hermie &amp; the crew work — Game Boy style, live from the VPS</span>
+          <span>Watch Hermie and the crew work live from the VPS, Game Boy style</span>
         </span>
         <span class="office-arrow">→</span>
       </a>
@@ -77,32 +85,32 @@
     <section class="section" id="workflow">
       <p class="eyebrow reveal">The workflow</p>
       <h2 class="reveal">One pipeline, end to end</h2>
-      <p class="lede reveal">Every project runs through the same loop — simple on purpose, boring on purpose. Boring means it keeps running.</p>
+      <p class="lede reveal">Every project runs through the same loop: simple on purpose, boring on purpose. Boring means it keeps running.</p>
       <ol class="flow">
         <li class="flow-step reveal">
           <span class="flow-num">01</span>
           <h3>Intake</h3>
-          <p>Ideas and briefs land in one place — a folder, a chat, a prompt. Nothing gets lost, nothing needs chasing.</p>
+          <p>Ideas and briefs land in one place: a folder, a chat, a prompt. Nothing gets lost, nothing needs chasing.</p>
         </li>
         <li class="flow-step reveal">
           <span class="flow-num">02</span>
           <h3>Build</h3>
-          <p>AI and automation produce the assets: images, captions, videos, quote-cards — generated, checked, approved.</p>
+          <p>AI and automation produce the assets: images, captions, videos, quote-cards. Each one gets generated, checked and approved.</p>
         </li>
         <li class="flow-step reveal">
           <span class="flow-num">03</span>
           <h3>Orchestrate</h3>
-          <p>Bots queue the work, schedule it and dispatch it across platforms — from one control panel.</p>
+          <p>Bots queue the work, schedule it and dispatch it across platforms from one control panel.</p>
         </li>
         <li class="flow-step reveal">
           <span class="flow-num">04</span>
           <h3>Publish</h3>
-          <p>Content goes live on schedule. Twice a day, every day — without anyone watching the clock.</p>
+          <p>Content goes live on schedule. Twice a day, every day, without anyone watching the clock.</p>
         </li>
         <li class="flow-step reveal">
           <span class="flow-num">05</span>
           <h3>Improve</h3>
-          <p>Watchdogs and stats watch everything, flag what breaks, and feed what works back into the loop.</p>
+          <p>Watchdogs keep an eye on everything, flag what breaks, and feed what works back into the loop.</p>
         </li>
       </ol>
     </section>
@@ -119,7 +127,7 @@
             </span>
             <h3>Facebook Bot Farm</h3>
           </div>
-          <p>A 10-bot automation farm on a Singapore VPS — Telegram-orchestrated auto-posting across Facebook pages, news reposting as quote-cards, health watchdogs and self-recovery. The engine behind our campaigns.</p>
+          <p>A 10-bot automation farm on a Singapore VPS. Telegram orchestrates auto-posting across Facebook pages, news reposting as quote-cards, health watchdogs and self-recovery. The engine behind our campaigns.</p>
           <div class="tags"><span>Bot farm</span><span>Facebook</span><span>Telegram</span><span>systemd</span><span>Watchdogs</span></div>
         </article>
         <article class="card reveal">
@@ -129,7 +137,7 @@
             </span>
             <h3>@day.with.john</h3>
           </div>
-          <p>An AI-powered TikTok pipeline that produces and posts twice a day (6AM & 6PM) — idea intake, image generation, assembly and scheduling, fully automated in 1080p.</p>
+          <p>An AI-powered TikTok pipeline that produces and posts twice a day, at 6AM and 6PM. Idea intake, image generation, assembly and scheduling, all running automatically in 1080p.</p>
           <div class="tags"><span>AI pipeline</span><span>Automation</span><span>TikTok</span><span>Python</span></div>
         </article>
         <article class="card reveal">
@@ -139,7 +147,7 @@
             </span>
             <h3>PawHealthHQ</h3>
           </div>
-          <p>A pet-health affiliate site driven by a Pinterest keyword engine — SEO content that earns affiliate commissions while the audience grows organically.</p>
+          <p>A pet-health affiliate site driven by a Pinterest keyword engine. SEO content earns affiliate commissions while the audience grows organically.</p>
           <div class="tags"><span>SEO</span><span>Affiliate</span><span>Pinterest</span><span>Content ops</span></div>
         </article>
         <article class="card reveal">
@@ -149,7 +157,7 @@
             </span>
             <h3>Shopee Affiliate Bot Fleet</h3>
           </div>
-          <p>A fleet of 10 automation bots that runs Shopee-affiliate Facebook marketing at scale — orchestrated over Telegram, with health monitoring and auto-recovery.</p>
+          <p>A fleet of 10 automation bots running Shopee-affiliate Facebook marketing at scale, orchestrated over Telegram with health monitoring and auto-recovery.</p>
           <div class="tags"><span>Telegram bots</span><span>Facebook</span><span>Affiliate</span><span>VPS infra</span></div>
         </article>
         <article class="card reveal">
@@ -159,8 +167,8 @@
             </span>
             <h3>Crypto Trading Bot</h3>
           </div>
-          <p>A high-leverage crypto trading bot on MEXC — strategies are backtested before they ever touch real money, with disciplined risk rules and full trade logging.</p>
-          <div class="tags"><span>Trading</span><span>Backtesting</span><span>MEXC</span><span>Python</span></div>
+          <p>A trading bot that only runs strategies which passed backtesting first. Right now it's paper trading live on my VPS, logging every signal and alerting over Telegram until the results justify real money.</p>
+          <div class="tags"><span>Trading</span><span>Backtesting</span><span>Telegram</span><span>Python</span></div>
         </article>
       </div>
     </section>
@@ -168,11 +176,11 @@
     <!-- SKILLS -->
     <section class="section" id="skills">
       <p class="eyebrow reveal">What I work with</p>
-      <h2 class="reveal">Skills & tools</h2>
+      <h2 class="reveal">Skills &amp; tools</h2>
       <div class="chips reveal">
         <span>Python</span><span>Automation</span><span>AI content pipelines</span><span>SEO</span>
         <span>Affiliate marketing</span><span>Telegram bots</span><span>Linux / VPS</span>
-        <span>PM2 · nginx · Docker</span><span>Backtesting</span><span>Data & analytics</span>
+        <span>PM2 · nginx · Docker</span><span>Backtesting</span><span>Data &amp; analytics</span>
       </div>
     </section>
 
@@ -180,7 +188,7 @@
     <section class="section" id="about">
       <p class="eyebrow reveal">About</p>
       <h2 class="reveal">Builder first, marketer second</h2>
-      <p class="about-text reveal">I'm a hands-on builder who treats every project like an engineering problem: if a task repeats, I automate it. That mindset turned a TikTok experiment into a twice-daily publishing machine, a pet blog into a Pinterest-driven affiliate asset, a side interest in trading into a backtested bot — and a handful of scripts into a bot farm that posts around the clock. I run my own infrastructure end-to-end, from the VPS to the content those bots push.</p>
+      <p class="about-text reveal">I'm a hands-on builder who treats every project like an engineering problem: if a task repeats, I automate it. That mindset turned a TikTok experiment into a twice-daily publishing machine, a pet blog into a Pinterest-driven affiliate asset, and a side interest in trading into a backtested bot that now paper trades on its own. A handful of scripts became a bot farm that posts around the clock. I run my own infrastructure from the VPS to the content those bots push.</p>
     </section>
 
     <!-- CONTACT -->
@@ -196,7 +204,7 @@
   </main>
 
   <footer class="footer">
-    <span>© <span id="year"></span> John · Built by hand & automation</span>
+    <span>© <span id="year"></span> John · Built by hand &amp; automation</span>
     <span class="footer-link"><a href="https://tambay-office.vercel.app" target="_blank" rel="noopener">The Office → watch the agents work</a></span>
   </footer>
 
